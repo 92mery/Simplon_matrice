@@ -1,0 +1,72 @@
+.container
+{
+margin: 50px;
+background-color: #D7E0E2;
+}
+
+
+.carre
+{
+	width: 60px;
+	height: 60px !important;
+	border: 2px solid white;
+	margin: 10px auto;
+	transition: 0.7s ease-in;
+
+}
+
+.rond
+{
+	width: 60px;
+	height: 60px !important;
+	border: 2px solid white;
+	border-radius: 50%;
+	margin: 10px auto;
+	transition: 0.7s ease-in;
+
+
+}
+
+.losange
+{
+	width: 60px;
+	height: 60px !important;
+	border: 2px solid white;
+	margin: 10px auto;
+	-ms-transform: rotate(45deg); /* Internet Explorer */
+    -moz-transform: rotate(45deg); /* Firefox */
+    -webkit-transform: rotate(45deg); /* Safari et Chrome */
+    -o-transform: rotate(45deg); /* Opera */
+    transition: 0.7s ease-in;
+
+
+}
+.carre-plein
+{ 
+	background-color: #28B8B5;
+	transition: 0.7s ease-in;
+}
+
+.rond-plein
+{ 
+	background-color: #91166F;
+	transition: 0.7s ease-in;}
+
+.losange-plein
+{ 
+	background-color: #F65752;
+	transition: 0.7s ease-in;
+
+}
+
+.bouton {
+	margin: 10px auto;
+	display: inline-block;
+}
+.cont-bouton
+{
+	text-align: center;
+	margin-right: 100px;
+}
+.btn
+{margin: 15px;}
